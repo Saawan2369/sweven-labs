@@ -4,7 +4,7 @@ This guide will help you get started with your first experiment in Sweven Labs.
 
 ## Prerequisites
 
-- Python 3.8 or higher installed
+- Python 3.9 or higher installed
 - Git for version control
 - Basic knowledge of Python and machine learning
 
@@ -25,7 +25,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Or using conda
-conda create -n sweven-labs python=3.8
+conda create -n sweven-labs python=3.9
 conda activate sweven-labs
 ```
 

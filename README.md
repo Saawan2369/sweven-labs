@@ -5,7 +5,7 @@
 Sweven Labs is an experimentation lab for AI, machine learning, and software prototypes. A collection of projects, prototypes, and research driven by curiosity, creativity, and modern engineering practices.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
 ---
 
@@ -80,7 +80,7 @@ sweven-labs/
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.9 or higher
 - pip or conda for package management
 - (Optional) Jupyter Lab for notebooks
 
@@ -99,7 +99,7 @@ sweven-labs/
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
    # Or using conda
-   conda create -n sweven-labs python=3.8
+   conda create -n sweven-labs python=3.9
    conda activate sweven-labs
    ```
 
