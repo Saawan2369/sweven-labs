@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific ignores
+# Data files (keep only .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+# Model files
+models/*
+!models/README.md
+!models/.gitkeep
+
+# Experiment outputs
+experiments/**/*.png
+experiments/**/*.jpg
+experiments/**/*.pdf
+experiments/**/*.pkl
+experiments/**/*.h5
+experiments/**/*.pth
